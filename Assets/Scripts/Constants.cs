@@ -4,27 +4,19 @@ using UnityEngine;
 
 public class Constants
 {
-    /* Constantes generales */
+    /* Constantes del juego */
     public const int NumTiles = 64;
     public const int TilesPerRow = 8;
     public const int Black = 1;
     public const int White = -1;
     public const int Empty = 0;
-    public const int InitialCop0 = 5;
-    public const int InitialCop1 = 2;
-    public const int InitialRobber = 60;
-    public const int Distance = 2;
-    public const int MaxRounds = 10;
-    public const int MoveSpeed = 2;
-    public const int EndSpeed = 4;
+    public const int Start = 1;//No cambiar con player1 humano. Hay un bug
+    public const string Player1 = "HUMAN";//AI o HUMAN
+    public const string Player2 = "AI";//AI o HUMAN
+    public const int PassTime = 2;
 
-    /* Diagrama de estados */
-    public const int Init = 0;
-    public const int CopSelected = 1;
-    public const int TileSelected = 2;
-    public const int RobberTurn = 3;
-    public const int End = 4;
-    public const int Restarting = 5;
-
-
+    /* Constantes de minimax */
+    public const int MIN = -1;
+    public const int MAX = 1;        
+    
 }

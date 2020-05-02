@@ -159,16 +159,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &25293691
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -274,16 +264,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &42409679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -389,16 +369,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &46804903
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -504,16 +474,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &97837592
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -619,16 +579,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &109922030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -734,16 +684,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &113061982
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -849,16 +789,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &128660244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -917,6 +847,85 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128660241}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &144077965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 144077966}
+  - component: {fileID: 144077968}
+  - component: {fileID: 144077967}
+  m_Layer: 5
+  m_Name: White_text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &144077966
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144077965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1662323611}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -370, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &144077967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144077965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 0
+--- !u!222 &144077968
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144077965}
+  m_CullTransparentMesh: 0
 --- !u!1 &150906023
 GameObject:
   m_ObjectHideFlags: 0
@@ -964,16 +973,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &150906026
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1139,6 +1138,85 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 87.90301, y: -74.43301, z: -53.88}
+--- !u!1001 &192696793
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7262053766019253389, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_Name
+      value: White
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253389, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.238
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253390, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8491299d655305d4bb4cb8a09a2130ae, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c, type: 3}
 --- !u!1 &223807404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,16 +1330,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &257859686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1320,6 +1388,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257859683}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &292032086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 292032087}
+  - component: {fileID: 292032088}
+  m_Layer: 0
+  m_Name: Player2
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &292032087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292032086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &292032088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292032086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2eaa512fcb68694c8b578dedcffed51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turn: -1
 --- !u!1 &316377945
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,16 +1479,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &316377948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1482,16 +1584,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &326961436
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1597,16 +1689,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &397815414
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1712,16 +1794,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &451714677
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1827,16 +1899,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &477514133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1942,16 +2004,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &488113617
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2057,16 +2109,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &490092802
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2277,7 +2319,7 @@ RectTransform:
   m_Children:
   - {fileID: 686816769}
   m_Father: {fileID: 1662323611}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -2421,16 +2463,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &639440881
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2489,6 +2521,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 639440878}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &649005210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 649005211}
+  - component: {fileID: 649005212}
+  m_Layer: 0
+  m_Name: Player1
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &649005211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649005210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &649005212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649005210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2eaa512fcb68694c8b578dedcffed51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turn: 1
 --- !u!1 &668060023
 GameObject:
   m_ObjectHideFlags: 0
@@ -2536,16 +2612,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &668060026
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2732,16 +2798,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &716934393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2847,16 +2903,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &754468923
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2962,16 +3008,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &798537318
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3077,16 +3113,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &803766047
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3192,16 +3218,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &813767080
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3260,6 +3276,85 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813767077}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &859767561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 859767562}
+  - component: {fileID: 859767564}
+  - component: {fileID: 859767563}
+  m_Layer: 5
+  m_Name: Black_text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &859767562
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859767561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1662323611}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -370, y: 72.4}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &859767563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859767561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 0
+--- !u!222 &859767564
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859767561}
+  m_CullTransparentMesh: 0
 --- !u!1 &877020168
 GameObject:
   m_ObjectHideFlags: 0
@@ -3345,16 +3440,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &877631279
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3456,16 +3541,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dca3365f67ca0f84495ff69c2e92c245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  board: {fileID: 961334829}
-  cops:
-  - {fileID: 0}
-  - {fileID: 0}
-  robber: {fileID: 0}
-  rounds: {fileID: 1973623855}
-  finalMessage: {fileID: 1369926277}
-  playAgainButton: {fileID: 565944027}
+  boardGameObject: {fileID: 961334829}
+  player1: {fileID: 649005210}
+  player2: {fileID: 292032086}
   piecePrefab: {fileID: 7262053766019253389, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
     type: 3}
+  lastMovementPrefab: {fileID: 5226078130135537054, guid: 699bc44c7200d7a4caa0bc57797fd1bd,
+    type: 3}
+  finalMessage: {fileID: 1369926277}
+  blackText: {fileID: 859767563}
+  whiteText: {fileID: 144077967}
+  playAgainButton: {fileID: 565944027}
   blackMaterial: {fileID: 2100000, guid: 6debf6fe3459d2540a4674bc2ff3e49e, type: 2}
   whiteMaterial: {fileID: 2100000, guid: 8491299d655305d4bb4cb8a09a2130ae, type: 2}
   tileMaterial: {fileID: 2100000, guid: fed85f6b23511e44eaef86cf387e776a, type: 2}
@@ -3518,16 +3604,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &895441618
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3671,16 +3747,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &970701887
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3786,16 +3852,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &990008895
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3901,16 +3957,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1058873468
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4054,16 +4100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1152368411
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4169,16 +4205,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1171190822
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4284,16 +4310,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1182104916
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4399,16 +4415,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1195947038
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4467,6 +4473,80 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195947035}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1240230044
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7262053766019253389, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_Name
+      value: Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253389, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.238
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262053766019253384, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69d248a9dbe3f9a4abd9e8d1b71af65c, type: 3}
 --- !u!1 &1259325530
 GameObject:
   m_ObjectHideFlags: 0
@@ -4514,16 +4594,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1259325533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4629,16 +4699,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1300228805
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4744,16 +4804,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1331823226
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4859,16 +4909,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1366861295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4957,7 +4997,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1662323611}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4977,7 +5017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.064290494, g: 0.7169812, b: 0.037201855, a: 1}
+  m_Color: {r: 0.7176471, g: 0.03529412, b: 0.1108014, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4986,7 +5026,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -5129,16 +5169,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1404043309
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5244,16 +5274,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1411240902
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5359,16 +5379,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1429988436
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5474,16 +5484,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1434162807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5589,16 +5589,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1450957447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5704,16 +5694,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1456735607
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5819,16 +5799,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1477945879
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5934,16 +5904,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1488485809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6049,16 +6009,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1509678797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6164,16 +6114,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1524564617
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6279,16 +6219,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1539931985
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6394,16 +6324,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1541493515
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6509,16 +6429,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1542650735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6624,16 +6534,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1556634441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6739,16 +6639,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1589160882
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6897,9 +6787,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1973623854}
   - {fileID: 1369926276}
   - {fileID: 565944026}
+  - {fileID: 859767562}
+  - {fileID: 144077966}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6955,16 +6846,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1713777187
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7070,16 +6951,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1720569171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7185,16 +7056,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1869720499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7300,16 +7161,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1880949128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7415,16 +7266,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1881028187
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7568,16 +7409,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1958737226
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7674,85 +7505,6 @@ Transform:
   m_Father: {fileID: 961334830}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1973623853
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1973623854}
-  - component: {fileID: 1973623856}
-  - component: {fileID: 1973623855}
-  m_Layer: 5
-  m_Name: Rounds
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1973623854
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973623853}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1662323611}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0, y: 1}
---- !u!114 &1973623855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973623853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.9811321, g: 0.9579922, b: 0.9579922, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Rounds:'
---- !u!222 &1973623856
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973623853}
-  m_CullTransparentMesh: 0
 --- !u!1 &1977305979
 GameObject:
   m_ObjectHideFlags: 0
@@ -7800,16 +7552,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &1977305982
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7868,6 +7610,49 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977305979}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1993925062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1993925064}
+  - component: {fileID: 1993925063}
+  m_Layer: 0
+  m_Name: BoardManager
+  m_TagString: BoardManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1993925063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993925062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cf1c27c6ba11b54689675f3fbf3af52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1993925064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993925062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2012513409
 GameObject:
   m_ObjectHideFlags: 0
@@ -7915,16 +7700,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &2012513412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8030,16 +7805,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &2014019990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8145,16 +7910,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &2024715327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8260,16 +8015,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &2048628467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8375,16 +8120,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &2096393136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8490,16 +8225,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 889567592}
-  NumTile: 0
-  fila: 0
-  columna: 0
-  value: 0
-  adyacencia: 
-  current: 0
-  selectable: 0
-  visited: 0
-  parent: {fileID: 0}
-  distance: 0
 --- !u!65 &2124688573
 BoxCollider:
   m_ObjectHideFlags: 0
