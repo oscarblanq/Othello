@@ -11,6 +11,7 @@ public class Node
     public double utility;
     public double alfa;
     public double beta;
+    public int nextPosition;
 
     public Node(Tile[] tiles)
     {
@@ -39,8 +40,7 @@ public class Player : MonoBehaviour
      * Salida: Posición donde mueve  
      */
     public int SelectTile(Tile[] board)
-    {        
-             
+    {
         //Generamos el nodo raíz del árbol (MAX)
         Node root = new Node(board);
         root.type = Constants.MAX;
@@ -62,13 +62,60 @@ public class Player : MonoBehaviour
             boardManager.Move(n.board, s, turn);
             //si queremos imprimir el nodo generado (tablero hijo)
             //boardManager.PrintBoard(n.board);
+
+            //Genero la nueva lista de movientos del nodo hijo
+            List<int> selectableTilesNivelDos = boardManager.FindSelectableTiles(n.board, -turn);
+            
+            //NIVEL 2
+            foreach (int s2 in selectableTilesNivelDos)
+            {
+                //Creo un nuevo nodo MAX con el tablero anterior MIN como padre
+                Node o = new Node(n.board);
+                n.childList.Add(o);
+                o.parent = n;
+                o.type = Constants.MAX;
+                boardManager.Move(o.board, s2, -turn);
+                calcularHeuristica(o, s2, turn);
+                volcado(o);
+            }
+            volcado(n);
         }
 
         //Selecciono un movimiento aleatorio. Esto habrá que modificarlo para elegir el mejor movimiento según MINIMAX
         int movimiento = Random.Range(0, selectableTiles.Count);
 
-        return selectableTiles[movimiento];
+        return selectableTiles[root.nextPosition];
 
     }
 
+    public void calcularHeuristica(Node o, int s, int turn)
+    {
+        List<int> listaCambioColor = boardManager.FindSwappablePieces(o.board, s, turn);
+        int contador = 0;
+        foreach(int miVariable in listaCambioColor)
+        {
+            contador = contador + 1;
+        }
+        o.utility = contador * 0.1;
+    }
+
+    public void volcado(Node nodo)
+    {
+        if (nodo.parent.type == Constants.MIN)
+        {
+            if (nodo.parent.utility > nodo.utility)
+            {
+                nodo.parent.utility = nodo.utility;
+                nodo.parent.nextPosition = nodo.nextPosition;
+            }
+        }
+        else if (nodo.parent.type == Constants.MAX)
+        {
+            if (nodo.parent.utility < nodo.utility)
+            {
+                nodo.parent.utility = nodo.utility;
+                nodo.parent.nextPosition = nodo.nextPosition;
+            }
+        }
+    }
 }
